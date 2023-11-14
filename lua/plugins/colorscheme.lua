@@ -18,4 +18,7 @@ return {
       colorscheme = "gruvbox",
     },
   },
+  {
+    "prisma/vim-prisma",
+  },
 }

@@ -4,4 +4,4 @@
 --
 local opt = vim.opt
 
-opt.background = "light"
+opt.background = "dark"
