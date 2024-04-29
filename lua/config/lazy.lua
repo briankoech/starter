@@ -13,7 +13,7 @@ require("lazy").setup({
     {
       "LazyVim/LazyVim",
       import = "lazyvim.plugins",
-      opts = { colorscheme = "solarized-osaka", news = { lazyvim = true, neovim = true } },
+      opts = { colorscheme = "gruvbox-material", news = { lazyvim = true, neovim = true } },
     },
     -- import any extras modules here
     { import = "lazyvim.plugins.extras.lang.typescript" },
@@ -37,7 +37,7 @@ require("lazy").setup({
     version = false, -- always use the latest git commit
     -- version = "*", -- try installing the latest stable version for plugins that support semver
   },
-  install = { colorscheme = { "tokyonight", "habamax", "gruvbox" } },
+  install = { colorscheme = { "tokyonight", "habamax", "gruvbox", "gruvbox-material" } },
   checker = { enabled = true }, -- automatically check for plugin updates
   performance = {
     rtp = {

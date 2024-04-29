@@ -34,4 +34,23 @@ return {
       }
     end,
   },
+  {
+    "sainnhe/gruvbox-material",
+    priority = 10000,
+    lazy = false,
+    config = function()
+      vim.g.gruvbox_material_foreground = "mix"
+      vim.g.gruvbox_material_background = "medium"
+      vim.cmd.colorscheme("gruvbox-material")
+    end,
+  },
+  {
+    "sainnhe/everforest",
+  },
+  {
+    "sainnhe/edge",
+  },
+  {
+    "sainnhe/sonokai",
+  },
 }

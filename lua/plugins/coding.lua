@@ -1,5 +1,10 @@
 return {
-  "smjonas/inc-rename.nvim",
-  cmd = "IncRename",
-  config = true,
+  {
+    "jlcrochet/vim-razor",
+  },
+  {
+    "smjonas/inc-rename.nvim",
+    cmd = "IncRename",
+    config = true,
+  },
 }
