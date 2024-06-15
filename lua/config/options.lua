@@ -5,7 +5,7 @@
 local opt = vim.opt
 
 opt.background = "dark"
-opt.guifont = "Fira Code:h12"
+opt.guifont = "BlexMono Nerd Font Mono:h11"
 vim.api.nvim_set_var("gruvbox_contrast_dark", "hard")
 
 vim.cmd([[let &t_Cs = "\e[4:3m"]])
